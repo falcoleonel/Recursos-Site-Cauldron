@@ -23,7 +23,6 @@ h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
-
 a:link {
   color: #b85a0e;
 }
@@ -48,7 +47,7 @@ a:hover {
 }
 .footer {
   margin: 2%;
-  padding: 10px;
+  padding: 5px;
   color: #f0ebe7;
   background-color: #07351a;
 }
