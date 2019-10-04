@@ -4,26 +4,26 @@
     "Lucida Sans", Arial, sans-serif;
 }
 body {
+  margin: 0px;
   background-color: #15364d;
   color: #f5f4f4;
 }
 hr {
   width: 95%;
 }
-h1 {
-  margin-top: 3px;
-  margin-bottom: 3px;
-  text-align: center;
-}
 h2 {
   color: #c839b1;
   text-align: center;
-  margin-top: 25 px;
-  margin-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
-p {
-  margin: 10px;
+h3 {
+  text-align: center;
+  padding: 2%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
 a:link {
   color: #b85a0e;
 }
@@ -35,6 +35,27 @@ a:hover {
 }
 /*class selector*/
 .header {
+  margin: 2%;
+  padding: 10px;
+  text-align: center;
+
   color: #f0ebe7;
   background-color: #07351a;
+}
+.block {
+  margin: 2%;
+  padding: 10px;
+}
+.footer {
+  margin: 2%;
+  padding: 10px;
+  color: #f0ebe7;
+  background-color: #07351a;
+}
+.subtitle {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin: 0px;
+  margin-left: 3%;
+  margin-right: 3%;
 }
