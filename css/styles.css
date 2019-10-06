@@ -1,9 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat:500|Rouge+Script&display=swap&subset=latin-ext");
+
+/* 
+- Cuerpo
+    font-family: 'Lato', sans-serif;
+- Titulo y cursivas
+    font-family: 'Rouge Script', cursive;
+- Subtitulos 
+    font-family: 'Montserrat', sans-serif;
+*/
+
 /*tag selector*/
-* {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-}
+
 body {
+  font-family: "Lato", sans-serif;
   margin: 0px;
   background-color: #15364d;
   color: #f5f4f4;
@@ -12,12 +21,14 @@ hr {
   width: 95%;
 }
 h2 {
+  font-family: "Montserrat", sans-serif;
   color: #c839b1;
   text-align: center;
   margin-top: 12px;
   margin-bottom: 12px;
 }
 h3 {
+  font-family: "Montserrat", sans-serif;
   text-align: center;
   padding: 2%;
   margin-top: 0px;
@@ -37,6 +48,7 @@ img {
 }
 /*class selector*/
 .header {
+  font-family: "Rouge Script", cursive;
   margin: 2%;
   padding: 8px;
   text-align: center;
