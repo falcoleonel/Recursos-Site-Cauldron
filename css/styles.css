@@ -32,10 +32,13 @@ a:visited {
 a:hover {
   color: #c211a5;
 }
+img {
+  width: 7%;
+}
 /*class selector*/
 .header {
   margin: 2%;
-  padding: 10px;
+  padding: 8px;
   text-align: center;
 
   color: #f0ebe7;
